@@ -28,7 +28,7 @@ function Reference() {
           <div className='bio'>
             <h3 className='bio-name'>Darius Maze</h3>
             <h4 className='bio-title'>VJLS-JH<br></br>Excective Director</h4>
-            <p className='bio-text'>“Chiaki was a fantastic member of the team at VJLS-JH and helped us to develop a strong, consistent visual and brand identity for the organization. They were very collaborative and well organized as they developed all of our marketing materials, including a new website refresh that brought improvements to accessibility, navigation, and customer engagement. I look forward to working with them again in the future and highly recommend them as a communications professional and web developer.”</p>
+            <p className='bio-text'>“Chiaki was a fantastic member of the team at VJLS-JH and helped us to develop a strong, consistent visual and brand identity for the organization. She was very collaborative and well organized as she developed all of our marketing materials, including a new website refresh that brought improvements to accessibility, navigation, and customer engagement. I look forward to working with her again in the future and highly recommend her as a communications professional and web developer.”</p>
           </div>
         </div>
 
