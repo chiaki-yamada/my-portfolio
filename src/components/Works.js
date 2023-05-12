@@ -14,7 +14,7 @@ function Works() {
           <h3 className='site-title'>School Website</h3>
           <p className='site-desc'>Explore the website that I helped design and created contents focusing on having a well-structured and mobile-friendly website that is easy to navigate.</p>
           <a href='https://vjls-jh.com/' className='btn' target="_blank" rel="noreferrer">See the site</a>
-    
+  
         </div>
 
         <div className='work'>
