@@ -159,7 +159,7 @@ h3 {
 
 /* works */
 .work {
-  border: 1px solid #E0E0E0;
+  border: 1px solid black;
   border-radius: 5px;
   padding: 5% 3%;
   text-align: center;
@@ -245,7 +245,10 @@ footer {
 .footer-img {
   width: 100%;
 }
-
+.copy-right {
+  text-align: center;
+  font-size: 0.8rem;
+}
 /* media queries */
 @media (min-width: 768px) {
   main {

@@ -9,6 +9,7 @@ function Footer() {
           <p>Contact:</p>
           <a href="mailto:jian88.c26@gmail.com">jian88.c26@gmail.com</a>
         </div>
+        <p className='copy-right'>© 2023 Chiaki Yamada</p>
       </div> 
       <div className="footer-img">
         <img src={footerImg} className="footer-img" alt="footer-img"></img>
