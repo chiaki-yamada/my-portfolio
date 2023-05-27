@@ -1,6 +1,7 @@
 import React from 'react'
 import schoolWebsite from '../imgs/vjls-jh.jpg'
 import movieWatchlist from '../imgs/movie-watchlist.jpg'
+import recipeApp from '../imgs/recipe.jpg'
 
 function Works() {
   return (
@@ -25,10 +26,10 @@ function Works() {
         </div>
 
         <div className='work'>
-          <img src={movieWatchlist} className='work-img' alt='work-img'></img>
-          <h3 className='site-title'>Movie Watchlist</h3>
+          <img src={recipeApp} className='work-img' alt='work-img'></img>
+          <h3 className='site-title'>Recipe App</h3>
           <p className='site-desc'>Check my recipe app designed for me and my partner as an international couple and vegetable lover! Easy to find our favorites and get ingredients and instructions without reading long summaries commonly found on recipe websites!</p>
-          <a href='https://movie-watchlist-cy.netlify.app' className='btn' target="_blank" rel="noreferrer">See the site</a>
+          <a href='https://foodie-recipe-cy.netlify.app' className='btn' target="_blank" rel="noreferrer">See the site</a>
         </div>
 
       </div>
