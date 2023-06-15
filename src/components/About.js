@@ -7,6 +7,8 @@ import bootstrapIcon from '../imgs/bootstrap.svg'
 import figmaIcon from '../imgs/figma.svg'
 import wordpressIcon from '../imgs/wordpress.svg'
 import photoshopIcon from '../imgs/photoshop.svg'
+import mailchimpIcon from '../imgs/mailchimp.png'
+
 
 function About() {
   return (
@@ -15,7 +17,7 @@ function About() {
       <div className="about-container">       
         <h2>Konnichiwa!</h2>
         <p>Hi I’m Chiaki, a self-taught web developer with a passion for creating intuitive and functional websites.</p> 
-        <p>My coding journey began when I was in my previous role as a communications coordinator. I had the opportunity to work with a front-end developer to build and design a new website from the ground up tailored to the needs of the organization. Watching the site take shape was very exciting, and it left me with a burning desire to learn more about web development. <br></br>Since then, I started taking courses to gain the skills necessary to create a website on my own and have been studying at every chance I got. Recently, I completed <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank" rel="noreferrer">a formal degree</a> in front-end web development.</p>
+        <p>My coding journey began when I was in my previous role as a communications coordinator. I had the opportunity to work with a front-end developer to build and design a new website from the ground up tailored to the needs of the organization.Creating layout and contents and seeing it take shape was very exciting, and it left me with a burning desire to learn more about UI design and development. <br></br>Since then, I started taking courses to gain the skills necessary to create a website on my own and have been studying at every chance I got. Recently, I completed <a href='https://api.accredible.com/v1/frontend/credential_website_embed_image/certificate/71780354' target="_blank" rel="noreferrer">a formal degree</a> in front-end web development.</p>
         <p>I believe my previouse role in creating social media, newsletters, and website posts also helped me home in on my eye for design and creative abilities. </p>
         <p>I’m excited to continue learning and growing as a front-end developer and look forward to contributing to exciting projects in the future!</p>
       
@@ -25,12 +27,13 @@ function About() {
         <h2>Skills</h2>
         <ul>
           <li>Proficient with HTML, CSS, JavaScript, React, Bootstrap</li>
-          <li>Creating responsive design and mobile-first websites</li>
-          <li>Building applications using API data</li>
-          <li>Utilizing AI tools such as GitHub Copilot </li>
-          <li>Proficient with WordPress to manage website</li>
+          <li>Developing and managing website using WordPress</li>
+          <li>Creating responsive designs and mobile-first websites</li>                 
           <li>Designing mockups and wireframes with Figma</li>
-          <li>Creating and editing images with Photoshop</li>
+          <li>Experience with editing images using Photoshop</li>
+          <li>Experience with creating and managing social media posts</li>
+          <li>Experience with creating and contributing monthly newsletters using MailChimps</li>
+          <li>Building applications using API data</li> 
         </ul>
         <div className='skills-icon'>
           <img src={htmlIcon} className='icon' alt='html-icon'></img>
@@ -41,6 +44,8 @@ function About() {
           <img src={wordpressIcon} className='icon' alt='wordpress-icon'></img>
           <img src={figmaIcon} className='icon' alt='figma-icon'></img>
           <img src={photoshopIcon} className='icon' alt='photoshop-icon'></img>
+          <img src={mailchimpIcon} className='icon' alt='mailchimp-icon'></img>
+         
           
         </div>
       </div>
@@ -54,7 +59,7 @@ function About() {
             <p>Vancouver Japanese Language School and Japanese Hall, Vancouver, Canada<br></br>2022 Jun- 2023 Mar</p>
           </div>
           <div className='work-desc'>
-            <p>Lead a new website launch project for a 110+ year old organization that provides day care, Japanese programs from children to adults and community events. After the new website went live, I was fully responsible for updating and maintaining the site using WordPress. I was also responsible for designing and creating social media posts, monthly e-newsletters, as well as creating posters for internal and external distribution to expand the organization's programs and activities. </p>
+            <p>Led a new website launch project for a 110+ year old organization that provides day care, Japanese programs from children to adults and community events. After the new website went live, I was fully responsible for updating and maintaining the site using WordPress. I was also responsible for designing and creating social media posts, monthly e-newsletters, as well as creating posters for internal and external distribution to expand the organization's programs and activities. </p>
           </div>
         </div>
 
