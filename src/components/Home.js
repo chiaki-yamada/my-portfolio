@@ -1,5 +1,5 @@
 import React from 'react';
-import profileImg from '../imgs/bio.jpg';
+import profileImg from '../imgs/bio2.jpg';
 
 
 const Home = () => {
