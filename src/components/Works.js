@@ -2,6 +2,7 @@ import React from 'react'
 import schoolWebsite from '../imgs/vjls-jh.jpg'
 import movieWatchlist from '../imgs/movie-watchlist.jpg'
 import recipeApp from '../imgs/recipe.jpg'
+import bestGourmetWebsite from '../imgs/best-gourmet.jpg'
 
 function Works() {
   return (
@@ -13,9 +14,16 @@ function Works() {
         <div className='work'>
           <img src={schoolWebsite} className='work-img' alt='work-img'></img>
           <h3 className='site-title'>School Website</h3>
-          <p className='site-desc'>Explore the website that I helped design and created contents focusing on having a well-structured and mobile-friendly website that is easy to navigate.</p>
+          <p className='site-desc'>Explore the website that I helped design, focusing on consistency and a well-structured layout, while also creating engaging content. This mobile-friendly website offers easy navigation and provides an enjoyable browsing experience.</p>
           <a href='https://vjls-jh.com/' className='btn' target="_blank" rel="noreferrer">See the site</a>
   
+        </div>
+
+        <div className='work'>
+          <img src={bestGourmetWebsite} className='work-img' alt='work-img'></img>
+          <h3 className='site-title'>Company Website</h3>
+          <p className='site-desc'>Check my recipe app designed for me and my partner as an international couple and vegetable lover! Easy to find our favorites and get ingredients and instructions without reading long summaries commonly found on recipe websites!</p>
+          <a href='https://foodie-recipe-cy.netlify.app' className='btn' target="_blank" rel="noreferrer">See the site</a>
         </div>
 
         <div className='work'>
@@ -31,6 +39,8 @@ function Works() {
           <p className='site-desc'>Check my recipe app designed for me and my partner as an international couple and vegetable lover! Easy to find our favorites and get ingredients and instructions without reading long summaries commonly found on recipe websites!</p>
           <a href='https://foodie-recipe-cy.netlify.app' className='btn' target="_blank" rel="noreferrer">See the site</a>
         </div>
+
+        
 
       </div>
     </main>
