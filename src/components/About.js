@@ -32,7 +32,7 @@ function About() {
           <li>Designing mockups and wireframes with Figma</li>
           <li>Experience with editing images using Photoshop</li>
           <li>Experience with creating and managing social media posts</li>
-          <li>Experience with creating and contributing monthly newsletters using MailChimps</li>
+          <li>Experience with creating and contributing monthly newsletters using MailChimp</li>
           <li>Building applications using API data</li> 
         </ul>
         <div className='skills-icon'>
