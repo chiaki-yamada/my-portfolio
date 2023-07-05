@@ -190,6 +190,10 @@ h3 {
   color: white;
 
 }
+.coffee-btn {
+  margin: 5px;
+  
+}
 
 /* references */
 .reference {
@@ -329,12 +333,7 @@ footer {
   }
 
   /* works */
-  .works-container {
-    margin: 10% 0;
-    display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    grid-column-gap: 50px;
-  }
+  
 
   .site-title {
     font-size: 1.2rem;
@@ -379,6 +378,13 @@ footer {
 
   .main-desc {
     width: 90%;
+  }
+  /* works */
+  .works-container {
+    margin: 10% 0;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-column-gap: 50px;
   }
 
 
