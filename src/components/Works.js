@@ -23,7 +23,8 @@ function Works() {
           <img src={bestGourmetWebsite} className='work-img' alt='work-img'></img>
           <h3 className='site-title'>Company Website</h3>
           <p className='site-desc'>Explore the sample website of an actual coffee company based in BC that I redesigned and rebuilt using WordPress. I aimed to create a modern, simple, and easy-to-navigate site that effectively showcases the company's unique points and features.</p>
-          <a href='https://best-gourmet-coffee.netlify.app' className='btn' target="_blank" rel="noreferrer">See the site</a>
+          <a href='https://best-gourmet-coffee.netlify.app' className='btn coffee-btn' target="_blank" rel="noreferrer">See the site</a>
+          <a href='https://drive.google.com/file/d/1kqxnlsIreSV0q0GjQNmOfUT1gqqCtgNm/view?usp=drive_link' className='btn coffee-btn' target="_blank" rel="noreferrer">Redesign Project</a>
         </div>
 
         <div className='work'>
