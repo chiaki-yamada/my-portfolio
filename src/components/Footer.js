@@ -7,7 +7,7 @@ function Footer() {
       <div className="footer-container">
         <div className="footer-contact">
           <p>Contact:</p>
-          <a href="mailto:jian88.c26@gmail.com">jian88.c26@gmail.com</a>
+          <a href="mailto:info@chiakiy.com">info@chiakiy.com</a>
         </div>
         <p className='copy-right'>© 2023 Chiaki Yamada</p>
       </div> 
