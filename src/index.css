@@ -115,11 +115,16 @@ main {
 
 
 /* about */
-.about-container a {
-  color: #0D47A1;
-}
 
-.skill-container li {
+.about-container a, .interests-container a {
+  color: #0D47A1;
+  border-bottom: 1px solid #0D47A1;
+}
+.about-container a:hover, .interests-container a:hover {
+  color: #d644fa;
+  border-bottom: 1px solid #d644fa;
+}
+.skill-container li, .interests-container li {
   list-style-type: disc;
 }
 
@@ -130,11 +135,11 @@ main {
 }
 
 .skills-container,
-.work-container {
+.work-container, .interests-container {
   border-top: 1px solid #BDBDBD;
 }
 
-.skills-container {
+.skills-container, .interests-container {
   color: #424242;
 }
 
@@ -260,7 +265,7 @@ footer {
     padding: 8% 12%
   }
   p,
-  .skills-container li {
+  .skills-container li, .interests-container li {
     font-size: 1.2rem;
   }
 
@@ -301,7 +306,7 @@ footer {
   /* about */
 
 
-  .about-container a {
+  .about-container a, .interests-container a {
     font-size: 1.2rem;
   }
 
@@ -430,7 +435,7 @@ footer {
   /* about */
   .about-container,
   .skills-container,
-  .work-container {
+  .work-container, .interests-container {
     padding: 0 12%;
   }
 
