@@ -21,6 +21,14 @@ function Works() {
         </div>
 
         <div className='work'>
+          <img src={ecSite} className='work-img' alt='work-img'></img>
+          <h3 className='site-title'>E-Commerce Website</h3>
+          <p className='site-desc'>This is my E-Commerce website featuring WooCommerce – a sneak peek of my future small business! With easy navigation and categories, finding what you want is a breeze. Check out the site and stay tuned for real products coming out in the near future!</p>
+          <a href='https://cplusgear.chiakiy.com/' className='btn coffee-btn' target="_blank" rel="noreferrer">See the site</a>
+      
+        </div>
+
+        <div className='work'>
           <img src={bestGourmetWebsite} className='work-img' alt='work-img'></img>
           <h3 className='site-title'>Company Website</h3>
           <p className='site-desc'>Explore the sample website of an actual coffee company based in BC that I redesigned and rebuilt using WordPress. I aimed to create a modern, simple, and easy-to-navigate site that effectively showcases the company's unique points and features.</p>
@@ -28,14 +36,7 @@ function Works() {
           <a href='https://drive.google.com/file/d/15nCqZB0VfOOUNYu3wb-lwIM0uo1dMA_p/view?usp=sharing' className='btn coffee-btn' target="_blank" rel="noreferrer">Project</a>
         </div>
 
-        <div className='work'>
-          <img src={ecSite} className='work-img' alt='work-img'></img>
-          <h3 className='site-title'>E-Commerce Website</h3>
-          <p className='site-desc'>Explore the sample website of an actual coffee company based in BC that I redesigned and rebuilt using WordPress. I aimed to create a modern, simple, and easy-to-navigate site that effectively showcases the company's unique points and features.</p>
-          <a href='https://cplusgear.chiakiy.com/' className='btn coffee-btn' target="_blank" rel="noreferrer">See the site</a>
-          <a href='https://drive.google.com/file/d/15nCqZB0VfOOUNYu3wb-lwIM0uo1dMA_p/view?usp=sharing' className='btn coffee-btn' target="_blank" rel="noreferrer">Project</a>
-        </div>
-
+      
         <div className='work'>
           <img src={movieWatchlist} className='work-img' alt='work-img'></img>
           <h3 className='site-title'>Movie Watchlist</h3>
