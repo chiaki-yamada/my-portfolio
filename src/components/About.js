@@ -8,6 +8,7 @@ import figmaIcon from '../imgs/figma.svg'
 import wordpressIcon from '../imgs/wordpress.svg'
 import photoshopIcon from '../imgs/photoshop.svg'
 import mailchimpIcon from '../imgs/mailchimp.png'
+import woocommerce from '../imgs/woocommerce.svg'
 
 
 function About() {
@@ -27,21 +28,24 @@ function About() {
         <h2>Skills</h2>
         <ul>
           <li>Proficient with HTML, CSS, JavaScript, React, Bootstrap</li>
-          <li>Developing and managing website using WordPress</li>
+          <li>Developing custom WordPress themes and managing websites</li>
+          <li>Building custom WordPress themes integrated with WooCommerce</li>
           <li>Creating responsive designs and mobile-first websites</li>                 
-          <li>Designing mockups and wireframes with Figma</li>
+          <li>Designing mockups and wireframes using Figma</li>
           <li>Experience with editing images using Photoshop</li>
           <li>Experience with creating and managing social media posts</li>
           <li>Experience with creating and contributing monthly newsletters using MailChimp</li>
           <li>Building applications using API data</li> 
         </ul>
         <div className='skills-icon'>
+          
           <img src={htmlIcon} className='icon' alt='html-icon'></img>
           <img src={cssIcon} className='icon' alt='css-icon'></img>
           <img src={javascriptIcon} className='icon' alt='javascript-icon'></img>
-          <img src={reactIcon} className='icon' alt='react-icon'></img>
-          <img src={bootstrapIcon} className='icon' alt='bootstrap-icon'></img>
           <img src={wordpressIcon} className='icon' alt='wordpress-icon'></img>
+          <img src={woocommerce} className='icon' alt='wordpress-icon'></img>
+          <img src={reactIcon} className='icon' alt='react-icon'></img>
+          <img src={bootstrapIcon} className='icon' alt='bootstrap-icon'></img>         
           <img src={figmaIcon} className='icon' alt='figma-icon'></img>
           <img src={photoshopIcon} className='icon' alt='photoshop-icon'></img>
           <img src={mailchimpIcon} className='icon' alt='mailchimp-icon'></img>
