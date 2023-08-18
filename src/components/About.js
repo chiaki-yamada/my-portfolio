@@ -92,7 +92,7 @@ function About() {
       <div className="interests-container">       
         <h2>Interests</h2>
         <ul>
-          <li>Hiking -Panorama Ridge in Whistler is undoubtedly my favorite trail!</li>
+          <li>Hiking -Panorama Ridge in Garibaldi Park is undoubtedly my favorite trail!</li>
           <li>Biking -I love exploring the islands around Vancouver!</li>
           <li>Camping -I am a campfire master, at least according to my friends.</li>
           <li>Film Photography -I've recently delved into this hobby! Click <a href='https://konnichiwafilm.chiakiy.com'>here</a> to view my photos.</li>
