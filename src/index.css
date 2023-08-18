@@ -91,6 +91,7 @@ main {
 
 .text-container {
   text-align: left;
+  margin-top: 1.5em;
 }
 
 .text-container h1 {
@@ -353,7 +354,9 @@ footer {
   .text-container {
     display: flex;
     justify-content: space-between;
+    margin-top: 0;
   }
+  
 
   .main-title-container {
     width: 60%;

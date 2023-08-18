@@ -7,6 +7,19 @@ import Works from './components/Works'
 import Reference from './components/Reference';
 import Footer from './components/Footer'
 
+import { useEffect } from 'react';
+import { useLocation } from 'react-router-dom';
+
+function ScrollToTop() {
+  const location = useLocation();
+
+  useEffect(() => {
+    window.scrollTo(0, 0);
+  }, [location]);
+
+  return null;
+}
+
 
 function App() {
   return (
@@ -19,6 +32,7 @@ function App() {
         <Route path="/reference" element={<Reference />} />
       </Routes>
       <Footer />
+      <ScrollToTop />
     </>
   )
 }
