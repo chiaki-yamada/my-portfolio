@@ -93,20 +93,40 @@ main {
   text-align: left;
   margin-top: 1.5em;
 }
-
-.text-container h1 {
+.main-title-container__line {
+  display: inline-block;
+}
+.typewriter-text {
   font-family: 'BhuTuka Expanded One';
-  font-size: 2.5rem;
+  font-size: 3rem;
+  letter-spacing: 4px;
   line-height: 1;
   margin-top: 0;
   margin-bottom: 0;
-}
+  border-right: 5px solid black;
 
+  width: 100%;
+  white-space: nowrap;
+  overflow: hidden;
+  animation: 
+    typing 2s steps(6),
+    cursor .4s step-end infinite alternate;
+}
+/* home  -cursor blinking */
+@keyframes cursor {
+  50% { border-color: transparent; }
+}
+/* home -typing effect */
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+  
 .main-title {
   font-family: 'BhuTuka Expanded One';
   font-weight: bold;
   color: black;
-  margin-top: 10px;
+  margin-top: 0;
 }
 
 .main-desc {
@@ -284,8 +304,8 @@ footer {
   }
 
   /* home */
-  .main-title-container h1 {
-    font-size: 4rem;
+  .typewriter-text {
+    font-size: 5rem;
   }
 
   .main-title {
@@ -372,8 +392,8 @@ footer {
     margin-top: auto;
   }
 
-  .main-title-container h1 {
-    font-size: 3.5rem;
+  .typewriter-text {
+    font-size: 4rem;
   }
 
   .main-title {
@@ -420,8 +440,8 @@ footer {
 
   /* home */
 
-  .main-title-container h1 {
-    font-size: 4rem;
+  .typewriter-text {
+    font-size: 5rem;
   }
 
   .main-title {

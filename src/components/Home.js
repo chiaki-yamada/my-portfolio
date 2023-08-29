@@ -7,9 +7,13 @@ const Home = () => {
     <main>
       <div className="text-container">
         <div className='main-title-container'>
-          <h1>CHIAKI<br></br>YAMADA</h1>
+          <div className='main-title-container__line'>
+            <h1 class="typewriter-text">CHIAKI</h1>
+          </div>
+          
+         
           <p className='main-title'>A Front-End Developer</p>
-          <p className='main-desc'>Hi! I’m Chiaki, a self-taught web developer with a passion for creating intuitive and functional websites and applications.  <br></br>
+          <p className='main-desc'>Hi! I’m Chiaki Yamada, a self-taught web developer with a passion for creating intuitive and functional websites and applications.  <br></br>
           I’m excited to continue learning and growing as a front-end developer and look forward to contributing to exciting projects in the future!
           </p>
         </div>
