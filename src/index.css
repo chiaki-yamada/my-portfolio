@@ -73,8 +73,20 @@ nav li a {
  
 }
 
-nav li a:hover {
-  color: #0D47A1;
+nav li a:hover { 
+  font-style: italic;
+}
+.nav-link::after {
+  content: '';
+  height: 2px;
+  width: 0;
+  background-color: rgb(194, 5, 246);
+  display: block;
+  transition: all 0.3s ease-in-out;
+  pointer-events: none;
+}
+.nav-link:hover::after {
+  width: 100%;
 }
 
 /* home */
@@ -269,7 +281,7 @@ footer {
 }
 
 .footer-contact a:hover {
-  color: #0D47A1;
+  color: rgb(194, 5, 246);
 }
 
 .footer-img {
